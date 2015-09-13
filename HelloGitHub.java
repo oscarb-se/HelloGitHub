@@ -2,8 +2,18 @@ public class HelloGitHub {
   public static void main(String[] args) {
     System.out.println("Hello GitHub!");
 
-    sayHelloToGitHub("Oscar");
+    Greeting.sayHelloToGitHub("Adam");
+
+
   }
+
+
+
+}
+
+
+
+class Greeting {
 
   public static void sayHelloToGitHub(String name) {
     System.out.println("There is a person...");
